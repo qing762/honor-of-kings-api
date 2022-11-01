@@ -4,7 +4,7 @@
 ![Discord](https://img.shields.io/discord/970305017238159440?style=for-the-badge)
 ![Twitch](https://img.shields.io/twitch/status/qing762?style=for-the-badge)
 
-I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to a CSV file and converted the CSV file to a JSON file through a python script so you doesnt have to do it
+I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to a CSV file and converted it to a JSON file through a python script so you doesnt have to do it
 
 
 
