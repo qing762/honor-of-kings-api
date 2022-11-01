@@ -15,7 +15,7 @@ I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to 
 
 ```http
   GET https://raw.githubusercontent.com/qing762/arena-of-valor-json/main/rawjson.json/
-  GET https://raw.githubusercontent.com/qing762/arenaofvalorjson/main/herolist.json/
+  GET https://raw.githubusercontent.com/qing762/arena-of-valor-json/main/rawjson_old.json
 ```
 
 | Parameter | Type     | Description                |
@@ -44,7 +44,7 @@ async def wangzherongyao(ctx, agentname):
         msg = await ctx.reply(content="Loading JSON file...")
         
         #This is the old version of the JSON file but it returns the moss id and more that the new one doesnt provide :D
-        link = 'https://raw.githubusercontent.com/qing762/arenaofvalorjson/main/herolist.json'
+        link = 'https://raw.githubusercontent.com/qing762/arena-of-valor-json/main/rawjson_old.json'
         
         f = requests.get(link)
         dt = f.json()
