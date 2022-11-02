@@ -20,7 +20,7 @@ I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to 
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `NONE` | `NONE` | Just request a get request and you're good to go.|
+| `NONE` | `GET` | Just request a get request and you're good to go.|
 
 
 ## Usage/Examples
