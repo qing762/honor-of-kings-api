@@ -59,8 +59,8 @@ async def wangzherongyao(ctx, agentname):
             m = abcd["moss_id"]
 
         # I saved the json file locally and named it "wangzhe.json" 
-        with open('wangzhe.json', encoding='utf-8') as zh:
-            data = json.load(zh)
+        with open('wangzhe.json', encoding='utf-8') as lj:
+            data = json.load(lj)
             list = [key["skinname"] for key in data["heroes"] if agentname == key["name"]]
             for key in data["heroes"]:
                 if agentname == key["name"]:
