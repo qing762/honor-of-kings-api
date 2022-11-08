@@ -1,8 +1,10 @@
 
 # Arena of Valor heroes API JSON File 王者荣耀英雄 API JSON 文件
 
-![Discord](https://img.shields.io/discord/970305017238159440?style=for-the-badge)
-![Twitch](https://img.shields.io/twitch/status/qing762?style=for-the-badge)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://discord.com/users/635765555277725696)
+[![forthebadge](https://forthebadge.com/images/badges/kinda-sfw.svg)](https://discord.com/users/635765555277725696)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://discord.com/users/635765555277725696)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://discord.com/users/635765555277725696)
 
 I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to a CSV file and converted it to a JSON file through a python script so you doesnt have to do it
 
