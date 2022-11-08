@@ -5,6 +5,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/kinda-sfw.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://discord.com/users/635765555277725696)
+[![forthebadge](motivated-by-h (1).svg)](https://discord.com/users/635765555277725696)
+[![forthebadge](made-by-qing762 (1).svg)](https://discord.com/users/635765555277725696)
 
 I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to a CSV file and converted it to a JSON file through a python script so you doesnt have to do it
 
