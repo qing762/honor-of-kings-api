@@ -1,11 +1,6 @@
+# Honor of Kings heroes API JSON File 王者荣耀英雄 API JSON 文件
 
-# Arena of Valor heroes API JSON File 王者荣耀英雄 API JSON 文件
-
-[<img src = "in-memorable-of-technoblade.svg" >](https://discord.com/users/635765555277725696)
-
-[<img src = "motivated-by-h (1).svg" >](https://discord.com/users/635765555277725696)
 [<img src = "made-by-qing762 (1).svg" >](https://discord.com/users/635765555277725696)
-
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/kinda-sfw.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://discord.com/users/635765555277725696)
@@ -21,8 +16,8 @@ I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to 
 #### Get entire json
 
 ```http
-  GET https://raw.githubusercontent.com/qing762/arena-of-valor-json/main/rawjson.json/
-  GET https://raw.githubusercontent.com/qing762/arena-of-valor-json/main/rawjson_old.json
+  GET https://raw.githubusercontent.com/qing762/honor-of-kings-json/main/rawjson.json/
+  GET https://raw.githubusercontent.com/qing762/honor-of-kings-json/main/rawjson_old.json
 ```
 
 | Parameter | Type     | Description                |
@@ -51,7 +46,7 @@ async def wangzherongyao(ctx, agentname):
         msg = await ctx.reply(content="Loading JSON file...")
         
         #This is the old version of the JSON file but it returns the moss id and more that the new one doesnt provide :D
-        link = 'https://raw.githubusercontent.com/qing762/arena-of-valor-json/main/rawjson_old.json'
+        link = 'https://raw.githubusercontent.com/qing762/honor-of-kings-json/main/rawjson_old.json'
         
         f = requests.get(link)
         dt = f.json()
@@ -125,3 +120,7 @@ Not sure atm.
 ## Authors
 
 - [@qing762](https://twitch.tv/qing762)
+
+-----------------
+
+[<img src = "in-memorable-of-technoblade.svg" >](https://discord.com/users/635765555277725696)
