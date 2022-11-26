@@ -38,7 +38,7 @@ intents.typing = True
 intents.presences = True
 intents.message_content = True
 
-bot = commands.bot(prefix="^", intents=intents)
+bot = commands.bot(prefix="[", intents=intents)
 
 @bot.command(aliases=["wangzhe", "王者荣耀", "王者"])
 async def wangzherongyao(ctx, agentname):
@@ -116,6 +116,9 @@ I scrapped the entire website.
 
 Not sure atm.
 
+#### Will this API be available on a website?
+
+Yes! And it's WIP
 
 ## Authors
 
