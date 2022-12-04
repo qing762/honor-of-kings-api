@@ -1,10 +1,11 @@
-# Honor of Kings heroes API JSON File 王者荣耀英雄 API JSON 文件
-
 [<img src = "made-by-qing762 (1).svg" >](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/kinda-sfw.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://discord.com/users/635765555277725696)
+
+# Honor of Kings heroes API JSON File 
+# 王者荣耀英雄 API JSON 文件
 
 I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to a CSV file and converted it to a JSON file through a python script so you doesnt have to do it
 
@@ -16,7 +17,7 @@ I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to 
 #### Get entire json
 
 ```http
-  GET https://raw.githubusercontent.com/qing762/honor-of-kings-json/main/rawjson.json/
+  GET https://qingbotcommand.netlify.app/wangzhe.json
   GET https://raw.githubusercontent.com/qing762/honor-of-kings-json/main/rawjson_old.json
 ```
 
@@ -118,7 +119,7 @@ Not sure atm.
 
 #### Will this API be available on a website?
 
-Yes! And it's WIP
+[~Yes! And it's WIP~](https://qingbotcommand.netlify.app/wangzhe.json)
 
 ## Authors
 
