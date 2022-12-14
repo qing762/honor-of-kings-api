@@ -18,7 +18,7 @@ I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to 
 
 ```http
   GET https://qingbotcommand.netlify.app/wangzhe.json
-  GET https://raw.githubusercontent.com/qing762/honor-of-kings-json/main/rawjson_old.json
+  GET https://qingbotcommand.netlify.app/wangzherongyao.json
 ```
 
 | Parameter | Type     | Description                |
@@ -46,8 +46,8 @@ async def wangzherongyao(ctx, agentname):
     async with ctx.typing():
         msg = await ctx.reply(content="Loading JSON file...")
         
-        #This is the old version of the JSON file but it returns the moss id and more that the new one doesnt provide :D
-        link = 'https://raw.githubusercontent.com/qing762/honor-of-kings-json/main/rawjson_old.json'
+        #Another version of the API :D
+        link = 'https://qingbotcommand.netlify.app/wangzherongyao.json'
         
         f = requests.get(link)
         dt = f.json()
@@ -61,7 +61,8 @@ async def wangzherongyao(ctx, agentname):
             sohai = abcd["skin_name"]
             m = abcd["moss_id"]
 
-        # I saved the json file locally and named it "wangzhe.json" 
+        # https://qingbotcommand.netlify.app/wangzhe.json
+        # Saved this link locally and named it "wangzhe.json"
         with open('wangzhe.json', encoding='utf-8') as lj:
             data = json.load(lj)
             list = [key["skinname"] for key in data["heroes"] if agentname == key["name"]]
