@@ -128,4 +128,4 @@ Not sure atm.
 
 -----------------
 
-[<img src = "in-memorable-of-technoblade.svg" >](https://discord.com/users/635765555277725696)
+[<img src = "in-memorable-of-technoblade.svg" >](https://www.curesarcoma.org/technoblade-tribute)
