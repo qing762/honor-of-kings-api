@@ -51,7 +51,7 @@ async def wangzherongyao(ctx, agentname):
         msg = await ctx.reply(content="Loading JSON file...")
         
         #Another version of the API :D
-        link = 'https://qingbotcommand.netlify.app/api.json'
+        link = 'https://qingbotcommand.netlify.app/herolist.json'
         
         f = requests.get(link)
         dt = f.json()
