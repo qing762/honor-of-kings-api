@@ -1,4 +1,4 @@
-[<img src = "made-by-qing762 (1).svg" >](https://discord.com/users/635765555277725696)
+![https://discord.com/users/635765555277725696](https://raw.githubusercontent.com/qing762/qing762/main/made-by-qing762.svg)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/kinda-sfw.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://discord.com/users/635765555277725696)
@@ -9,7 +9,8 @@
 
 I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to a CSV file and converted it to a JSON file through a python script so you doesnt have to do it
 
-
+> **Note**
+> The herolist.json file is a official API json file from Tencent and Timi. It provides more information than my own API json file that I scraped from the website (moss id, more tidier). But, it doesnt provides some information such as the tips and etc. 
 
 
 ## API Reference
@@ -17,8 +18,8 @@ I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to 
 #### Get entire json
 
 ```http
-  GET https://qingbotcommand.netlify.app/wangzhe.json
-  GET https://qingbotcommand.netlify.app/wangzherongyao.json
+  GET https://qingbotcommand.netlify.app/api.json
+  GET https://qingbotcommand.netlify.app/herolist.json
 ```
 
 | Parameter | Type     | Description                |
@@ -28,6 +29,9 @@ I scrapped the [entire website](https://pvp.qq.com/web201605/herolist.shtml) to 
 
 ## Usage/Examples
 ### Sample discord bot
+
+> **Note**
+> Please create a issue if the following code doesnt work anymore. Thanks!
 
 ```python
 import discord, json, requests
@@ -47,7 +51,7 @@ async def wangzherongyao(ctx, agentname):
         msg = await ctx.reply(content="Loading JSON file...")
         
         #Another version of the API :D
-        link = 'https://qingbotcommand.netlify.app/wangzherongyao.json'
+        link = 'https://qingbotcommand.netlify.app/api.json'
         
         f = requests.get(link)
         dt = f.json()
@@ -105,7 +109,7 @@ I use this JSON file for my discord bot and here's what it output with the sampl
 
 ## JSON file doesnt work anymore?
 
-If it doesn't work anymore, please reach out to me by Discord: [qing762](https://discord.com/users/635765555277725696)
+If it doesn't work anymore, please reach out to me by Discord: [qing762](https://discord.com/users/635765555277725696) or [create a issue](https://github.com/qing762/honor-of-kings-json/issues/new)!
 
 
 ## FAQ
@@ -120,7 +124,11 @@ Not sure atm.
 
 #### Will this API be available on a website?
 
-[~Yes! And it's WIP~](https://qingbotcommand.netlify.app/wangzhe.json)
+[~Yes! And it's WIP~](https://qingbotcommand.netlify.app/api.json)
+
+#### How do you find the official API?
+
+F12
 
 ## Authors
 
@@ -128,4 +136,4 @@ Not sure atm.
 
 -----------------
 
-[<img src = "in-memorable-of-technoblade.svg" >](https://www.curesarcoma.org/technoblade-tribute)
+![https://www.curesarcoma.org/technoblade-tribute](https://raw.githubusercontent.com/qing762/qing762/main/in-memorable-of-technoblade.svg)
