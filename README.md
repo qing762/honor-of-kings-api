@@ -50,8 +50,8 @@ async def wangzherongyao(ctx, agentname):
     async with ctx.typing():
         msg = await ctx.reply(content="Loading JSON file...")
         
-        #Another version of the API :D
-        link = 'https://qingbotcommand.netlify.app/herolist.json'
+        #Another version of the API
+        link = 'https://pvp.qq.com/web201605/js/herolist.json'
         
         f = requests.get(link)
         dt = f.json()
@@ -65,7 +65,7 @@ async def wangzherongyao(ctx, agentname):
             sohai = abcd["skin_name"]
             m = abcd["moss_id"]
 
-        # https://qingbotcommand.netlify.app/wangzhe.json
+        # https://qing762.is-a.dev/api/wangzhe
         # Saved this link locally and named it "wangzhe.json"
         with open('wangzhe.json', encoding='utf-8') as lj:
             data = json.load(lj)
