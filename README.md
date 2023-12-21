@@ -134,5 +134,3 @@ F12
 - [@qing762](https://twitch.tv/qing762)
 
 -----------------
-
-![https://www.curesarcoma.org/technoblade-tribute](https://raw.githubusercontent.com/qing762/qing762/main/in-memorable-of-technoblade.svg)
