@@ -1,6 +1,5 @@
 ![https://discord.com/users/635765555277725696](https://raw.githubusercontent.com/qing762/qing762/main/made-by-qing762.svg)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://discord.com/users/635765555277725696)
-[![forthebadge](https://forthebadge.com/images/badges/kinda-sfw.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://discord.com/users/635765555277725696)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://discord.com/users/635765555277725696)
 
