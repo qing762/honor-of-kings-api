@@ -2,6 +2,7 @@
     {
         "ename": 105,
         "cname": "\u5ec9\u9887",
+        "id_name": "lianpo",
         "title": "\u6b63\u4e49\u7206\u8f70",
         "new_type": 0,
         "hero_type": 3,
@@ -11,6 +12,7 @@
     {
         "ename": 106,
         "cname": "\u5c0f\u4e54",
+        "id_name": "xiaoqiao",
         "title": "\u604b\u4e4b\u5fae\u98ce",
         "new_type": 0,
         "hero_type": 2,
@@ -20,6 +22,7 @@
     {
         "ename": 107,
         "cname": "\u8d75\u4e91",
+        "id_name": "zhaoyun",
         "title": "\u82cd\u5929\u7fd4\u9f99",
         "new_type": 0,
         "hero_type": 1,
@@ -30,6 +33,7 @@
     {
         "ename": 108,
         "cname": "\u58a8\u5b50",
+        "id_name": "mozi",
         "title": "\u548c\u5e73\u5b88\u671b",
         "new_type": 0,
         "hero_type": 2,
@@ -40,6 +44,7 @@
     {
         "ename": 109,
         "cname": "\u59b2\u5df1",
+        "id_name": "daji",
         "title": "\u9b45\u529b\u4e4b\u72d0",
         "pay_type": 11,
         "new_type": 0,
@@ -50,6 +55,7 @@
     {
         "ename": 110,
         "cname": "\u5b34\u653f",
+        "id_name": "yingzheng",
         "title": "\u738b\u8005\u72ec\u5c0a",
         "new_type": 0,
         "hero_type": 2,
@@ -59,7 +65,9 @@
     {
         "ename": 111,
         "cname": "\u5b59\u5c1a\u9999",
+        "id_name": "sunshangxiang",
         "title": "\u5343\u91d1\u91cd\u5f29",
+        "pay_type": 10,
         "new_type": 0,
         "hero_type": 5,
         "skin_name": "\u5343\u91d1\u91cd\u5f29|\u706b\u70ae\u5343\u91d1|\u6c34\u679c\u751c\u5fc3|\u8537\u8587\u604b\u4eba|\u6740\u624b\u4e0d\u592a\u51b7|\u672b\u65e5\u673a\u7532|\u6c89\u7a33\u4e4b\u529b",
@@ -68,6 +76,7 @@
     {
         "ename": 112,
         "cname": "\u9c81\u73ed\u4e03\u53f7",
+        "id_name": "lubanqihao",
         "title": "\u673a\u5173\u9020\u7269",
         "new_type": 0,
         "hero_type": 5,
@@ -77,6 +86,7 @@
     {
         "ename": 113,
         "cname": "\u5e84\u5468",
+        "id_name": "zhuangzhou",
         "title": "\u900d\u9065\u68a6\u5e7b",
         "new_type": 0,
         "hero_type": 6,
@@ -87,6 +97,7 @@
     {
         "ename": 114,
         "cname": "\u5218\u7985",
+        "id_name": "liushan",
         "title": "\u66b4\u8d70\u673a\u5173",
         "new_type": 0,
         "hero_type": 6,
@@ -97,6 +108,7 @@
     {
         "ename": 115,
         "cname": "\u9ad8\u6e10\u79bb",
+        "id_name": "gaojianli",
         "title": "\u53db\u9006\u541f\u6e38",
         "new_type": 0,
         "hero_type": 2,
@@ -106,8 +118,8 @@
     {
         "ename": 116,
         "cname": "\u963f\u8f72",
+        "id_name": "ake",
         "title": "\u4fe1\u5ff5\u4e4b\u5203",
-        "pay_type": 10,
         "new_type": 0,
         "hero_type": 4,
         "skin_name": "\u4fe1\u5ff5\u4e4b\u5203|\u7231\u5fc3\u62a4\u7406|\u6697\u591c\u732b\u5a18|\u81f4\u547d\u98ce\u534e|\u8282\u594f\u70ed\u6d6a",
@@ -116,6 +128,7 @@
     {
         "ename": 117,
         "cname": "\u949f\u65e0\u8273",
+        "id_name": "zhongwuyan",
         "title": "\u91ce\u86ee\u4e4b\u9524",
         "new_type": 0,
         "hero_type": 1,
@@ -126,7 +139,9 @@
     {
         "ename": 118,
         "cname": "\u5b59\u8191",
+        "id_name": "sunbin",
         "title": "\u9006\u6d41\u4e4b\u65f6",
+        "pay_type": 10,
         "new_type": 0,
         "hero_type": 6,
         "hero_type2": 2,
@@ -136,6 +151,7 @@
     {
         "ename": 119,
         "cname": "\u6241\u9e4a",
+        "id_name": "bianque",
         "title": "\u5584\u6076\u602a\u533b",
         "new_type": 0,
         "hero_type": 2,
@@ -145,6 +161,7 @@
     {
         "ename": 120,
         "cname": "\u767d\u8d77",
+        "id_name": "baiqi",
         "title": "\u6700\u7ec8\u5175\u5668",
         "new_type": 0,
         "hero_type": 3,
@@ -154,6 +171,7 @@
     {
         "ename": 121,
         "cname": "\u8288\u6708",
+        "id_name": "miyue",
         "title": "\u6c38\u6052\u4e4b\u6708",
         "new_type": 0,
         "hero_type": 2,
@@ -164,6 +182,7 @@
     {
         "ename": 123,
         "cname": "\u5415\u5e03",
+        "id_name": "lvbu",
         "title": "\u65e0\u53cc\u4e4b\u9b54",
         "new_type": 0,
         "hero_type": 1,
@@ -174,6 +193,7 @@
     {
         "ename": 124,
         "cname": "\u5468\u745c",
+        "id_name": "zhouyv",
         "title": "\u94c1\u8840\u90fd\u7763",
         "new_type": 0,
         "hero_type": 2,
@@ -183,8 +203,8 @@
     {
         "ename": 126,
         "cname": "\u590f\u4faf\u60c7",
+        "id_name": "xiahoudun",
         "title": "\u4e0d\u7f81\u4e4b\u98ce",
-        "pay_type": 10,
         "new_type": 0,
         "hero_type": 3,
         "hero_type2": 1,
@@ -194,6 +214,7 @@
     {
         "ename": 127,
         "cname": "\u7504\u59ec",
+        "id_name": "zhenji",
         "title": "\u6d1b\u795e\u964d\u4e34",
         "new_type": 0,
         "hero_type": 2,
@@ -203,6 +224,7 @@
     {
         "ename": 128,
         "cname": "\u66f9\u64cd",
+        "id_name": "caocao",
         "title": "\u9c9c\u8840\u67ad\u96c4",
         "new_type": 0,
         "hero_type": 1,
@@ -212,7 +234,9 @@
     {
         "ename": 129,
         "cname": "\u5178\u97e6",
+        "id_name": "dianwei",
         "title": "\u72c2\u6218\u58eb",
+        "pay_type": 10,
         "new_type": 0,
         "hero_type": 1,
         "skin_name": "\u72c2\u6218\u58eb|\u9ec4\u91d1\u6b66\u58eb|\u7a77\u5947",
@@ -221,6 +245,7 @@
     {
         "ename": 130,
         "cname": "\u5bab\u672c\u6b66\u85cf",
+        "id_name": "gongbenwuzang",
         "title": "\u5251\u5723",
         "new_type": 0,
         "hero_type": 1,
@@ -230,6 +255,7 @@
     {
         "ename": 131,
         "cname": "\u674e\u767d",
+        "id_name": "libai",
         "title": "\u9752\u83b2\u5251\u4ed9",
         "new_type": 0,
         "hero_type": 4,
@@ -239,6 +265,7 @@
     {
         "ename": 132,
         "cname": "\u9a6c\u53ef\u6ce2\u7f57",
+        "id_name": "makeboluo",
         "title": "\u8fdc\u6e38\u4e4b\u67aa",
         "new_type": 0,
         "hero_type": 5,
@@ -248,6 +275,7 @@
     {
         "ename": 133,
         "cname": "\u72c4\u4ec1\u6770",
+        "id_name": "direnjie",
         "title": "\u65ad\u6848\u5927\u5e08",
         "new_type": 0,
         "hero_type": 5,
@@ -257,6 +285,7 @@
     {
         "ename": 134,
         "cname": "\u8fbe\u6469",
+        "id_name": "damo",
         "title": "\u62f3\u50e7",
         "new_type": 0,
         "hero_type": 1,
@@ -267,15 +296,18 @@
     {
         "ename": 135,
         "cname": "\u9879\u7fbd",
+        "id_name": "xiangyu",
         "title": "\u9738\u738b",
         "new_type": 0,
         "hero_type": 3,
+        "hero_type2": 1,
         "skin_name": "\u9738\u738b|\u5e1d\u56fd\u5143\u5e05|\u82cd\u7a79\u4e4b\u5149|\u6d77\u6ee9\u6d3e\u5bf9|\u804c\u68d2\u738b\u724c|\u9738\u738b\u522b\u59ec|\u79d1\u5b66\u5927\u7206\u70b8",
         "moss_id": 3815
     },
     {
         "ename": 136,
         "cname": "\u6b66\u5219\u5929",
+        "id_name": "wuzetian",
         "title": "\u5973\u5e1d",
         "new_type": 0,
         "hero_type": 2,
@@ -285,6 +317,7 @@
     {
         "ename": 139,
         "cname": "\u8001\u592b\u5b50",
+        "id_name": "laofuzi",
         "title": "\u4e07\u53e4\u957f\u660e",
         "new_type": 0,
         "hero_type": 1,
@@ -294,6 +327,7 @@
     {
         "ename": 140,
         "cname": "\u5173\u7fbd",
+        "id_name": "guanyu",
         "title": "\u4e00\u9a91\u5f53\u5343",
         "new_type": 0,
         "hero_type": 1,
@@ -303,6 +337,7 @@
     {
         "ename": 141,
         "cname": "\u8c82\u8749",
+        "id_name": "diaochan",
         "title": "\u7edd\u4e16\u821e\u59ec",
         "new_type": 0,
         "hero_type": 2,
@@ -313,6 +348,7 @@
     {
         "ename": 142,
         "cname": "\u5b89\u742a\u62c9",
+        "id_name": "anqila",
         "title": "\u6697\u591c\u841d\u8389",
         "new_type": 0,
         "hero_type": 2,
@@ -322,6 +358,7 @@
     {
         "ename": 144,
         "cname": "\u7a0b\u54ac\u91d1",
+        "id_name": "chengyaojin",
         "title": "\u70ed\u70c8\u4e4b\u65a7",
         "new_type": 0,
         "hero_type": 3,
@@ -332,7 +369,9 @@
     {
         "ename": 146,
         "cname": "\u9732\u5a1c",
+        "id_name": "luna",
         "title": "\u6708\u5149\u4e4b\u5973",
+        "pay_type": 10,
         "new_type": 0,
         "hero_type": 1,
         "hero_type2": 2,
@@ -342,15 +381,20 @@
     {
         "ename": 148,
         "cname": "\u59dc\u5b50\u7259",
-        "title": "\u592a\u53e4\u9b54\u5bfc",
+        "id_name": "jiangziya",
+        "title": "\u5c01\u795e\u8005",
+        "time": "2022.11.10",
+        "upgrade": 1,
         "new_type": 0,
         "hero_type": 2,
         "skin_name": "\u592a\u53e4\u9b54\u5bfc|\u65f6\u5c1a\u6559\u7236",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/rebuild/1110jinagziya.html",
         "moss_id": 3951
     },
     {
         "ename": 149,
         "cname": "\u5218\u90a6",
+        "id_name": "liubang",
         "title": "\u53cc\u9762\u541b\u4e3b",
         "new_type": 0,
         "hero_type": 3,
@@ -360,6 +404,7 @@
     {
         "ename": 150,
         "cname": "\u97e9\u4fe1",
+        "id_name": "hanxin",
         "title": "\u56fd\u58eb\u65e0\u53cc",
         "new_type": 0,
         "hero_type": 4,
@@ -369,6 +414,7 @@
     {
         "ename": 152,
         "cname": "\u738b\u662d\u541b",
+        "id_name": "wangzhaojun",
         "title": "\u51b0\u96ea\u4e4b\u534e",
         "new_type": 0,
         "hero_type": 2,
@@ -378,6 +424,7 @@
     {
         "ename": 153,
         "cname": "\u5170\u9675\u738b",
+        "id_name": "lanlingwang",
         "title": "\u6697\u5f71\u5200\u950b",
         "new_type": 0,
         "hero_type": 4,
@@ -387,6 +434,7 @@
     {
         "ename": 154,
         "cname": "\u82b1\u6728\u5170",
+        "id_name": "huamulan",
         "title": "\u4f20\u8bf4\u4e4b\u5203",
         "new_type": 0,
         "hero_type": 1,
@@ -397,6 +445,7 @@
     {
         "ename": 156,
         "cname": "\u5f20\u826f",
+        "id_name": "zhangliang",
         "title": "\u8a00\u7075\u4e4b\u4e66",
         "new_type": 0,
         "hero_type": 2,
@@ -406,6 +455,7 @@
     {
         "ename": 157,
         "cname": "\u4e0d\u77e5\u706b\u821e",
+        "id_name": "buzhihuowu",
         "title": "\u660e\u5a9a\u70c8\u7130",
         "new_type": 0,
         "hero_type": 2,
@@ -416,6 +466,7 @@
     {
         "ename": 162,
         "cname": "\u5a1c\u53ef\u9732\u9732",
+        "id_name": "nakelulu",
         "title": "\u9e70\u4e4b\u5b88\u62a4",
         "new_type": 0,
         "hero_type": 4,
@@ -425,6 +476,7 @@
     {
         "ename": 163,
         "cname": "\u6a58\u53f3\u4eac",
+        "id_name": "jvyoujing",
         "title": "\u795e\u68a6\u4e00\u5200",
         "new_type": 0,
         "hero_type": 4,
@@ -435,6 +487,7 @@
     {
         "ename": 166,
         "cname": "\u4e9a\u745f",
+        "id_name": "yase",
         "title": "\u5723\u9a91\u4e4b\u529b",
         "pay_type": 11,
         "new_type": 0,
@@ -446,8 +499,8 @@
     {
         "ename": 167,
         "cname": "\u5b59\u609f\u7a7a",
+        "id_name": "sunwukong",
         "title": "\u9f50\u5929\u5927\u5723",
-        "pay_type": 10,
         "new_type": 0,
         "hero_type": 4,
         "hero_type2": 1,
@@ -457,6 +510,7 @@
     {
         "ename": 168,
         "cname": "\u725b\u9b54",
+        "id_name": "niumo",
         "title": "\u7cbe\u82f1\u914b\u957f",
         "new_type": 0,
         "hero_type": 6,
@@ -467,8 +521,8 @@
     {
         "ename": 169,
         "cname": "\u540e\u7fbf",
+        "id_name": "houyi",
         "title": "\u534a\u795e\u4e4b\u5f13",
-        "pay_type": 10,
         "new_type": 0,
         "hero_type": 5,
         "skin_name": "\u534a\u795e\u4e4b\u5f13|\u7cbe\u7075\u738b|\u963f\u5c14\u6cd5\u5c0f\u961f|\u8f89\u5149\u4e4b\u8fb0|\u9ec4\u91d1\u5c04\u624b\u5ea7",
@@ -477,6 +531,7 @@
     {
         "ename": 170,
         "cname": "\u5218\u5907",
+        "id_name": "liubei",
         "title": "\u4ec1\u5fb7\u4e49\u67aa",
         "new_type": 0,
         "hero_type": 1,
@@ -486,6 +541,7 @@
     {
         "ename": 171,
         "cname": "\u5f20\u98de",
+        "id_name": "zhangfei",
         "title": "\u7981\u8840\u72c2\u517d",
         "new_type": 0,
         "hero_type": 3,
@@ -496,6 +552,7 @@
     {
         "ename": 173,
         "cname": "\u674e\u5143\u82b3",
+        "id_name": "liyuanfang",
         "title": "\u738b\u90fd\u5bc6\u63a2",
         "new_type": 0,
         "hero_type": 5,
@@ -505,6 +562,7 @@
     {
         "ename": 174,
         "cname": "\u865e\u59ec",
+        "id_name": "yuji",
         "title": "\u68ee\u4e4b\u98ce\u7075",
         "new_type": 0,
         "hero_type": 5,
@@ -514,6 +572,7 @@
     {
         "ename": 175,
         "cname": "\u949f\u9997",
+        "id_name": "zhongkui",
         "title": "\u865a\u7075\u57ce\u5224",
         "new_type": 0,
         "hero_type": 6,
@@ -524,6 +583,7 @@
     {
         "ename": 177,
         "cname": "\u6210\u5409\u601d\u6c57",
+        "id_name": "chengjisihan",
         "title": "\u82cd\u72fc\u672b\u88d4",
         "new_type": 0,
         "hero_type": 5,
@@ -533,6 +593,7 @@
     {
         "ename": 178,
         "cname": "\u6768\u622c",
+        "id_name": "yangjian",
         "title": "\u6839\u6e90\u4e4b\u76ee",
         "new_type": 0,
         "hero_type": 1,
@@ -542,6 +603,7 @@
     {
         "ename": 183,
         "cname": "\u96c5\u5178\u5a1c",
+        "id_name": "yadianna",
         "title": "\u5723\u57df\u4f59\u6656",
         "new_type": 0,
         "hero_type": 1,
@@ -551,6 +613,7 @@
     {
         "ename": 184,
         "cname": "\u8521\u6587\u59ec",
+        "id_name": "caiwenji",
         "title": "\u5929\u7c41\u5f26\u97f3",
         "new_type": 0,
         "hero_type": 6,
@@ -560,6 +623,7 @@
     {
         "ename": 186,
         "cname": "\u592a\u4e59\u771f\u4eba",
+        "id_name": "taiyizhenren",
         "title": "\u70bc\u91d1\u5927\u5e08",
         "new_type": 0,
         "hero_type": 6,
@@ -570,6 +634,7 @@
     {
         "ename": 180,
         "cname": "\u54ea\u5412",
+        "id_name": "nezha",
         "title": "\u6840\u9a9c\u708e\u67aa",
         "new_type": 0,
         "hero_type": 1,
@@ -579,6 +644,7 @@
     {
         "ename": 190,
         "cname": "\u8bf8\u845b\u4eae",
+        "id_name": "zhugeliang",
         "title": "\u7edd\u4ee3\u667a\u8c0b",
         "pay_type": 10,
         "new_type": 0,
@@ -589,6 +655,7 @@
     {
         "ename": 192,
         "cname": "\u9ec4\u5fe0",
+        "id_name": "huangzhong",
         "title": "\u71c3\u9b42\u91cd\u70ae",
         "new_type": 0,
         "hero_type": 5,
@@ -598,15 +665,18 @@
     {
         "ename": 191,
         "cname": "\u5927\u4e54",
+        "id_name": "daqiao",
         "title": "\u6ca7\u6d77\u4e4b\u66dc",
         "new_type": 0,
         "hero_type": 6,
+        "hero_type2": 2,
         "skin_name": "\u6ca7\u6d77\u4e4b\u66dc|\u4f0a\u52bf\u5deb\u5973|\u5b88\u62a4\u4e4b\u529b|\u732b\u72d7\u65e5\u8bb0",
         "moss_id": 4410
     },
     {
         "ename": 187,
         "cname": "\u4e1c\u7687\u592a\u4e00",
+        "id_name": "donghuangtaiyi",
         "title": "\u566c\u706d\u65e5\u8680",
         "new_type": 0,
         "hero_type": 6,
@@ -617,6 +687,7 @@
     {
         "ename": 182,
         "cname": "\u5e72\u5c06\u83ab\u90aa",
+        "id_name": "ganjiangmoye",
         "title": "\u6dec\u547d\u53cc\u5251",
         "new_type": 0,
         "hero_type": 2,
@@ -626,6 +697,7 @@
     {
         "ename": 189,
         "cname": "\u9b3c\u8c37\u5b50",
+        "id_name": "guiguzi",
         "title": "\u4e07\u7269\u6709\u7075",
         "new_type": 0,
         "hero_type": 6,
@@ -635,6 +707,7 @@
     {
         "ename": 193,
         "cname": "\u94e0",
+        "id_name": "kai",
         "title": "\u7834\u706d\u5203\u950b",
         "new_type": 0,
         "hero_type": 1,
@@ -645,6 +718,7 @@
     {
         "ename": 196,
         "cname": "\u767e\u91cc\u5b88\u7ea6",
+        "id_name": "bailishouyue",
         "title": "\u9759\u8c27\u4e4b\u773c",
         "new_type": 0,
         "hero_type": 5,
@@ -655,6 +729,7 @@
     {
         "ename": 195,
         "cname": "\u767e\u91cc\u7384\u7b56",
+        "id_name": "bailixuance",
         "title": "\u56a3\u72c2\u4e4b\u9570",
         "new_type": 0,
         "hero_type": 4,
@@ -664,6 +739,7 @@
     {
         "ename": 194,
         "cname": "\u82cf\u70c8",
+        "id_name": "sulie",
         "title": "\u4e0d\u5c48\u94c1\u58c1",
         "new_type": 0,
         "hero_type": 3,
@@ -674,16 +750,18 @@
     {
         "ename": 198,
         "cname": "\u68a6\u5947",
+        "id_name": "mengqi",
         "title": "\u5165\u68a6\u4e4b\u7075",
         "new_type": 0,
         "hero_type": 1,
-        "hero_type2": 3,
+        "hero_type2": 2,
         "skin_name": "\u5165\u68a6\u4e4b\u7075|\u7f8e\u68a6\u6210\u771f|\u80d6\u8fbe\u8363\u8363",
         "moss_id": 4529
     },
     {
         "ename": 179,
         "cname": "\u5973\u5a32",
+        "id_name": "nvwa",
         "title": "\u81f3\u9ad8\u521b\u4e16",
         "new_type": 0,
         "hero_type": 2,
@@ -693,6 +771,7 @@
     {
         "ename": 501,
         "cname": "\u660e\u4e16\u9690",
+        "id_name": "mingshiyin",
         "title": "\u7075\u9b42\u52ab\u535c",
         "new_type": 0,
         "hero_type": 6,
@@ -702,6 +781,7 @@
     {
         "ename": 199,
         "cname": "\u516c\u5b59\u79bb",
+        "id_name": "gongsunli",
         "title": "\u5e7b\u821e\u73b2\u73d1",
         "new_type": 0,
         "hero_type": 5,
@@ -711,7 +791,9 @@
     {
         "ename": 176,
         "cname": "\u6768\u7389\u73af",
+        "id_name": "yangyuhuan",
         "title": "\u9713\u88f3\u98ce\u534e",
+        "pay_type": 10,
         "new_type": 0,
         "hero_type": 2,
         "skin_name": "\u98ce\u534e\u9713\u88f3|\u9713\u88f3\u66f2|\u9047\u89c1\u98de\u5929",
@@ -720,6 +802,7 @@
     {
         "ename": 502,
         "cname": "\u88f4\u64d2\u864e",
+        "id_name": "peiqinhu",
         "title": "\u516d\u5408\u864e\u62f3",
         "new_type": 0,
         "hero_type": 4,
@@ -730,6 +813,7 @@
     {
         "ename": 197,
         "cname": "\u5f08\u661f",
+        "id_name": "yixing",
         "title": "\u5929\u5143\u4e4b\u5f08",
         "new_type": 0,
         "hero_type": 2,
@@ -739,15 +823,20 @@
     {
         "ename": 503,
         "cname": "\u72c2\u94c1",
+        "id_name": "kuangtie",
         "title": "\u6218\u8f66\u610f\u5fd7",
+        "time": "2023.04.15",
+        "upgrade": 1,
         "new_type": 0,
         "hero_type": 1,
         "skin_name": "\u6218\u8f66\u610f\u5fd7|\u547d\u8fd0\u89d2\u6597\u573a|\u5fa1\u72ee",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/rebuild/0413kt.html",
         "moss_id": 3615
     },
     {
         "ename": 504,
         "cname": "\u7c73\u83b1\u72c4",
+        "id_name": "milaidi",
         "title": "\u7b51\u57ce\u8005",
         "new_type": 0,
         "hero_type": 2,
@@ -757,6 +846,7 @@
     {
         "ename": 125,
         "cname": "\u5143\u6b4c",
+        "id_name": "yuange",
         "title": "\u65e0\u95f4\u5080\u5121",
         "new_type": 0,
         "hero_type": 4,
@@ -766,6 +856,7 @@
     {
         "ename": 510,
         "cname": "\u5b59\u7b56",
+        "id_name": "sunce",
         "title": "\u5149\u660e\u4e4b\u6d77",
         "new_type": 0,
         "hero_type": 3,
@@ -776,6 +867,7 @@
     {
         "ename": 137,
         "cname": "\u53f8\u9a6c\u61ff",
+        "id_name": "simayi",
         "title": "\u5bc2\u706d\u4e4b\u5fc3",
         "new_type": 0,
         "hero_type": 4,
@@ -786,6 +878,7 @@
     {
         "ename": 509,
         "cname": "\u76fe\u5c71",
+        "id_name": "dunshan",
         "title": "\u65e0\u5c3d\u4e4b\u76fe",
         "new_type": 0,
         "hero_type": 6,
@@ -796,6 +889,7 @@
     {
         "ename": 508,
         "cname": "\u4f3d\u7f57",
+        "id_name": "jialuo",
         "title": "\u7834\u9b54\u4e4b\u7bad",
         "new_type": 0,
         "hero_type": 5,
@@ -805,6 +899,7 @@
     {
         "ename": 312,
         "cname": "\u6c88\u68a6\u6eaa",
+        "id_name": "shenmengxi",
         "title": "\u7206\u5f39\u602a\u732b",
         "new_type": 0,
         "hero_type": 2,
@@ -814,6 +909,7 @@
     {
         "ename": 507,
         "cname": "\u674e\u4fe1",
+        "id_name": "lixin",
         "title": "\u8c0b\u4e16\u4e4b\u6218",
         "new_type": 0,
         "hero_type": 1,
@@ -823,6 +919,7 @@
     {
         "ename": 513,
         "cname": "\u4e0a\u5b98\u5a49\u513f",
+        "id_name": "shangguanwaner",
         "title": "\u60ca\u9e3f\u4e4b\u7b14",
         "new_type": 0,
         "hero_type": 2,
@@ -833,6 +930,7 @@
     {
         "ename": 515,
         "cname": "\u5ae6\u5a25",
+        "id_name": "change",
         "title": "\u5bd2\u6708\u516c\u4e3b",
         "new_type": 0,
         "hero_type": 2,
@@ -843,6 +941,7 @@
     {
         "ename": 511,
         "cname": "\u732a\u516b\u6212",
+        "id_name": "zhubajie",
         "title": "\u65e0\u5fe7\u731b\u58eb",
         "new_type": 0,
         "hero_type": 3,
@@ -852,6 +951,7 @@
     {
         "ename": 529,
         "cname": "\u76d8\u53e4",
+        "id_name": "pangu",
         "title": "\u7834\u6653\u4e4b\u795e",
         "new_type": 0,
         "hero_type": 1,
@@ -861,8 +961,8 @@
     {
         "ename": 505,
         "cname": "\u7476",
+        "id_name": "yao",
         "title": "\u9e7f\u7075\u5b88\u5fc3",
-        "pay_type": 10,
         "new_type": 0,
         "hero_type": 6,
         "skin_name": "\u68ee",
@@ -871,6 +971,7 @@
     {
         "ename": 506,
         "cname": "\u4e91\u4e2d\u541b",
+        "id_name": "yunzhongjun",
         "title": "\u6d41\u4e91\u4e4b\u7ffc",
         "new_type": 0,
         "hero_type": 4,
@@ -881,8 +982,8 @@
     {
         "ename": 522,
         "cname": "\u66dc",
+        "id_name": "dongfangyao",
         "title": "\u661f\u8fb0\u4e4b\u5b50",
-        "pay_type": 10,
         "new_type": 0,
         "hero_type": 1,
         "skin_name": "\u5f52\u865a\u68a6\u6f14",
@@ -891,6 +992,7 @@
     {
         "ename": 518,
         "cname": "\u9a6c\u8d85",
+        "id_name": "machao",
         "title": "\u51b7\u6656\u4e4b\u67aa",
         "new_type": 0,
         "hero_type": 1,
@@ -900,6 +1002,7 @@
     {
         "ename": 523,
         "cname": "\u897f\u65bd",
+        "id_name": "xishi",
         "title": "\u5e7b\u7eb1\u4e4b\u7075",
         "new_type": 0,
         "hero_type": 2,
@@ -909,6 +1012,7 @@
     {
         "ename": 525,
         "cname": "\u9c81\u73ed\u5927\u5e08",
+        "id_name": "lubandashi",
         "title": "\u795e\u5320",
         "new_type": 0,
         "hero_type": 6,
@@ -918,6 +1022,7 @@
     {
         "ename": 524,
         "cname": "\u8499\u72bd",
+        "id_name": "mengya",
         "title": "\u70c8\u70ae\u5c0f\u5b50",
         "new_type": 0,
         "hero_type": 5,
@@ -927,6 +1032,7 @@
     {
         "ename": 531,
         "cname": "\u955c",
+        "id_name": "jing",
         "title": "\u7834\u955c\u4e4b\u5203",
         "new_type": 0,
         "hero_type": 4,
@@ -936,6 +1042,7 @@
     {
         "ename": 527,
         "cname": "\u8499\u606c",
+        "id_name": "mengtian",
         "title": "\u79e9\u5e8f\u7edf\u5c06",
         "new_type": 0,
         "hero_type": 1,
@@ -946,6 +1053,7 @@
     {
         "ename": 533,
         "cname": "\u963f\u53e4\u6735",
+        "id_name": "aguduo",
         "title": "\u5c71\u6797\u4e4b\u5b50",
         "new_type": 0,
         "hero_type": 3,
@@ -955,6 +1063,7 @@
     {
         "ename": 536,
         "cname": "\u590f\u6d1b\u7279",
+        "id_name": "xialuote",
         "title": "\u73ab\u7470\u5251\u58eb",
         "new_type": 0,
         "hero_type": 1,
@@ -964,6 +1073,7 @@
     {
         "ename": 528,
         "cname": "\u6f9c",
+        "id_name": "lan",
         "title": "\u9ca8\u4e4b\u730e\u5203",
         "new_type": 0,
         "hero_type": 4,
@@ -973,6 +1083,7 @@
     {
         "ename": 537,
         "cname": "\u53f8\u7a7a\u9707",
+        "id_name": "sikongzhen",
         "title": "\u96f7\u9706\u4e4b\u738b",
         "new_type": 0,
         "hero_type": 1,
@@ -983,6 +1094,7 @@
     {
         "ename": 155,
         "cname": "\u827e\u7433",
+        "id_name": "ailin",
         "title": "\u7cbe\u7075\u4e4b\u821e",
         "new_type": 0,
         "hero_type": 5,
@@ -992,6 +1104,7 @@
     {
         "ename": 538,
         "cname": "\u4e91\u7f28",
+        "id_name": "yunying",
         "title": "\u71ce\u539f\u4e4b\u5fc3",
         "new_type": 0,
         "hero_type": 1,
@@ -1002,25 +1115,28 @@
     {
         "ename": 540,
         "cname": "\u91d1\u8749",
+        "id_name": "jinchan",
         "title": "\u6e21\u4e16\u884c\u8005",
         "new_type": 0,
         "hero_type": 2,
-        "hero_type2": 6,
         "skin_name": "\u6e21\u4e16\u884c\u8005|\u524d\u5c18",
         "moss_id": 3887
     },
     {
         "ename": 542,
         "cname": "\u6683",
+        "id_name": "fei",
         "title": "\u7389\u57ce\u4e4b\u5b50",
         "new_type": 0,
         "hero_type": 4,
+        "hero_type2": 1,
         "skin_name": "\u7389\u57ce\u4e4b\u5b50|\u78a7\u73c0\u7eef\u5f71",
         "moss_id": 4818
     },
     {
         "ename": 534,
         "cname": "\u6851\u542f",
+        "id_name": "sangqi",
         "title": "\u8424\u706b\u4e4b\u65c5",
         "new_type": 0,
         "hero_type": 6,
@@ -1030,37 +1146,110 @@
     {
         "ename": 548,
         "cname": "\u6208\u5a05",
+        "id_name": "geya",
         "title": "\u6c99\u6d77\u98de\u821f",
+        "time": "2022.06.23",
         "new_type": 0,
         "hero_type": 5,
         "skin_name": "\u6c99\u6d77\u98de\u821f",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/newheros/0622geya.html",
         "moss_id": 4852
     },
     {
         "ename": 521,
         "cname": "\u6d77\u6708",
-        "title": "\u6c38\u591c\u4e4b\u5b50",
+        "id_name": "haiyue",
+        "title": "\u6c38\u591c\u4e4b\u5fc3",
+        "time": "2022.09.22",
         "new_type": 0,
         "hero_type": 2,
-        "skin_name": "\u6c38\u591c\u4e4b\u5b50",
+        "skin_name": "\u6c38\u591c\u4e4b\u5fc3",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/newheros/0915haiyue.html",
         "moss_id": 4937
     },
     {
         "ename": 544,
         "cname": "\u8d75\u6000\u771f",
+        "id_name": "zhaohuaizhen",
         "title": "\u81ea\u5728\u4e4b\u5fc3",
+        "time": "2022.12.01",
         "new_type": 0,
         "hero_type": 1,
         "skin_name": "\u81ea\u5728\u4e4b\u5fc3",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/newheros/1202zhz.html",
         "moss_id": 5122
     },
     {
         "ename": 545,
         "cname": "\u83b1\u897f\u5965",
+        "id_name": "laixiao",
         "title": "\u706b\u9e70\u8239\u957f",
-        "new_type": 1,
+        "time": "2023.01.03",
+        "new_type": 0,
         "hero_type": 5,
         "skin_name": "\u706b\u9e70\u8239\u957f",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/newheros/0103laixiao.html",
         "moss_id": 5138
+    },
+    {
+        "ename": 564,
+        "cname": "\u59ec\u5c0f\u6ee1",
+        "id_name": "jixiaoman",
+        "title": "\u6b66\u9053\u5947\u624d",
+        "pay_type": 10,
+        "time": "2023.04.15",
+        "new_type": 0,
+        "hero_type": 1,
+        "skin_name": "\u6b66\u9053\u5947\u624d",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/newheros/0413jixiaoman.html",
+        "moss_id": 5753
+    },
+    {
+        "ename": 514,
+        "cname": "\u4e9a\u8fde",
+        "id_name": "yalian",
+        "title": "\u8ffd\u5fc6\u4e4b\u5203",
+        "time": "2023.06.27",
+        "new_type": 0,
+        "hero_type": 1,
+        "skin_name": "\u8ffd\u5fc6\u4e4b\u5203",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/newheros/0627yalian.html",
+        "moss_id": 5560
+    },
+    {
+        "ename": 159,
+        "cname": "\u6735\u8389\u4e9a",
+        "id_name": "duoliya",
+        "title": "\u4eba\u9c7c\u4e4b\u6b4c",
+        "time": "2023.11.03",
+        "new_type": 0,
+        "hero_type": 6,
+        "skin_name": "\u4eba\u9c7c\u4e4b\u6b4c",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/newheros/1103duoliya.html",
+        "moss_id": 6177
+    },
+    {
+        "ename": 563,
+        "cname": "\u6d77\u8bfa",
+        "id_name": "hainuo",
+        "title": "\u547d\u8fd0\u4e4b\u5f15",
+        "time": "2023.11.30",
+        "new_type": 0,
+        "hero_type": 2,
+        "skin_name": "\u547d\u8fd0\u4e4b\u5f15",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/newheros/1130hainuo.html",
+        "moss_id": 6387
+    },
+    {
+        "ename": 519,
+        "cname": "\u6556\u9690",
+        "id_name": "aoyin",
+        "title": "\u51cc\u9704\u771f\u9f99",
+        "time": "2024.02.06",
+        "new_type": 1,
+        "hero_type": 5,
+        "skin_name": "\u547d\u8fd0\u4e4b\u5f15",
+        "m_bl_link": "https://pvp.qq.com/ingame/all/tobe/newheros/1130hainuo.html",
+        "moss_id": 6367
     }
 ]
