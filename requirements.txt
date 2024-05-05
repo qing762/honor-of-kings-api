@@ -1,0 +1,6 @@
+aiofiles==23.2.1
+aiohttp==3.9.5
+beautifulsoup4==4.12.3
+DrissionPage==4.0.4.21
+DrissionPage==4.0.4.22
+Requests==2.31.0

@@ -1,0 +1,90 @@
+name: Build API & Checking
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 pytest
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Ensure code is working as expected
+        run: |
+          python main.py
+
+      - name: Lint & Validate links, language & timestamp
+        run: |
+          python lib/validate.py wangzhe.json
+
+      - name: Upload wangzhe.json
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: wangzhe.json
+          path: wangzhe.json
+
+      - name: Zip repo files
+        uses: papeloto/action-zip@v1.2
+        with:
+          files: . '!./.git/**/*'
+          dest: release.zip
+
+      - name: Publish code
+        id: create_release
+        uses: softprops/action-gh-release@v2.0.4
+        with:
+          files: release.zip
+          name: "Release v2.${{ github.run_number }}"
+          body: "Commit: ${{ github.sha }}\nDownload the `release.zip` file and you are good to go!\nContinue by following the steps given in the README."
+          tag_name: ${{ github.ref_name }}
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main' && github.repository == 'qing762/honor-of-kings-api'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 pytest
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Download wangzhe.json
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: wangzhe.json
+          path: .
+
+      - name: Upload code to API
+        run: |
+          python lib/upload.py
+        env:
+          apiUploadURL: ${{ secrets.apiUploadURL }}
+          apiUploadPASS: ${{ secrets.apiUploadPASS }}
