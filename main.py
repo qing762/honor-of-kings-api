@@ -54,6 +54,10 @@ class Main:
     async def main(self):
         chromeOptions = Options()
         chromeOptions.add_argument("--log-level=3")
+        chromeOptions.add_argument("--headless")
+        chromeOptions.add_argument("--no-sandbox")
+        chromeOptions.add_argument("--disable-dev-shm-usage")
+        chromeOptions.add_argument("--disable-gpu")
         page = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chromeOptions)
         mainData = {}
         for index, url in enumerate(self.sites):
