@@ -3,7 +3,10 @@ import asyncio
 import json
 import re
 import requests
-from DrissionPage import ChromiumPage
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
 
 
@@ -49,12 +52,14 @@ class Main:
             return r
 
     async def main(self):
-        page = ChromiumPage()
+        chromeOptions = Options()
+        chromeOptions.add_argument("--log-level=3")
+        page = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chromeOptions)
         mainData = {}
         for index, url in enumerate(self.sites):
             print(f"Processing {url} ({index + 1}/{len(self.sites)})...")
             page.get(url)
-            soup = BeautifulSoup(page.html, features="html.parser")
+            soup = BeautifulSoup(page.page_source, features="html.parser")
             title = soup.find("h3", class_="cover-title").text
             name = soup.find("h2", class_="cover-name").text
             skills = []
