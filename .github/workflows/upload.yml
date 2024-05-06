@@ -57,7 +57,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.ref == 'refs/heads/main' && github.repository == 'qing762/wangzhe-api'
+    if: github.ref == 'refs/heads/main' && github.repository == 'qing762/honor-of-kings-api'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
