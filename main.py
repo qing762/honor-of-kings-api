@@ -33,12 +33,15 @@ class Main:
 
             for x in herolist:
                 y = x['ename']
-                notAvailable = [521, 544, 545, 564, 514, 159, 563, 517]
+                notAvailable = [521, 544, 545, 564, 514, 159, 563, 517, 582]
                 if y not in notAvailable:
-                    storyHero = await self.fetch(session, f"https://pvp.qq.com/zlkdatasys/storyhero/index{y}.json")
-                    for key in storyHero:
-                        if isinstance(storyHero[key], list) and len(storyHero[key]) == 1:
-                            storyHero[key] = storyHero[key][0]
+                    try:
+                        storyHero = await self.fetch(session, f"https://pvp.qq.com/zlkdatasys/storyhero/index{y}.json")
+                        for key in storyHero:
+                            if isinstance(storyHero[key], list) and len(storyHero[key]) == 1:
+                                storyHero[key] = storyHero[key][0]
+                    except UnicodeDecodeError:
+                        storyHero = None
                 else:
                     storyHero = None
                 x['storyHero'] = storyHero
