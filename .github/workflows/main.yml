@@ -24,6 +24,13 @@ jobs:
 
       - name: Set up browser
         uses: browser-actions/setup-chrome@v1
+        id: setup-chrome
+        with:
+          install-dependencies: true
+
+      - name: Check Chrome version
+        run: |
+          ${{ steps.setup-chrome.outputs.chrome-path }} --version
           
       - name: Install dependencies
         run: |
