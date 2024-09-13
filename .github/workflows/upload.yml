@@ -26,10 +26,6 @@ jobs:
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Set up chromedriver
-        run: |
-          sudo chmod +x /home/runner/.wdm/drivers/chromedriver/linux64/127.0.6533.88/chromedriver-linux64/chromedriver
-
       - name: Ensure code is working as expected
         run: |
           python main.py
