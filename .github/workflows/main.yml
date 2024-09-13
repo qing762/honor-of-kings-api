@@ -28,10 +28,6 @@ jobs:
         with:
           install-dependencies: true
           install-chromedriver: true
-
-      - name: Check Chrome version
-        run: |
-          ${{ steps.setup-chrome.outputs.chrome-path }} --version
           
       - name: Install dependencies
         run: |
