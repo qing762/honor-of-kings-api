@@ -52,8 +52,11 @@ class Main:
             return r
 
     async def main(self):
-        port = ChromiumOptions().auto_port()
-        dp = ChromiumPage(port)
+        options = ChromiumOptions()
+        options.set_argument('--remote-debugging-port=9600')
+        options.set_argument('--no-sandbox')
+        options.use_system_user_path()
+        dp = ChromiumPage(options)
         mainData = {}
         for index, url in enumerate(self.sites):
             print(f"Processing {url} ({index + 1}/{len(self.sites)})...")
