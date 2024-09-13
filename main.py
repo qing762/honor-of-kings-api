@@ -3,7 +3,7 @@ import asyncio
 import json
 import re
 import requests
-from DrissionPage import ChromiumPage
+from DrissionPage import ChromiumPage, ChromiumOptions
 from bs4 import BeautifulSoup
 
 
@@ -52,7 +52,8 @@ class Main:
             return r
 
     async def main(self):
-        dp = ChromiumPage()
+        port = ChromiumOptions().auto_port()
+        dp = ChromiumPage(port)
         mainData = {}
         for index, url in enumerate(self.sites):
             print(f"Processing {url} ({index + 1}/{len(self.sites)})...")
