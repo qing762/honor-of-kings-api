@@ -54,6 +54,7 @@ class Main:
     async def main(self):
         options = ChromiumOptions()
         options.set_argument('--remote-debugging-port=9600')
+        options.set_argument('--headless=new')
         options.set_argument('--no-sandbox')
         options.use_system_user_path()
         dp = ChromiumPage(options)
