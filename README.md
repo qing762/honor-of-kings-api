@@ -14,7 +14,7 @@ It scrapes data from [Honor of Kings official website](https://pvp.qq.com/web201
 ### Get All Heroes Data
 
 ```http
-GET /api/wangzhe
+GET https://qing762.is-a.dev/api/wangzhe
 ```
 
 Returns the entire Honor of Kings heroes data.
@@ -64,7 +64,7 @@ Returns the entire Honor of Kings heroes data.
 ### Get Specific Hero Data
 
 ```http
-GET /api/wangzhe/heroes/{hero}
+GET https://qing762.is-a.dev/api/wangzhe/heroes/{hero}
 ```
 
 Returns data for a specific Honor of Kings hero.
