@@ -80,12 +80,12 @@ async def validateLinks():
                     print("0")
                 else:
                     print(f"Link is invalid: {url}")
-                    all_links_valid = False
+                    allLinksValid = False
                     invalidURL.append(url)
             except (aiohttp.ClientError, asyncio.TimeoutError):
                 continue
 
-    if all_links_valid:
+    if allLinksValid:
         print("All links are valid!\n\n")
     else:
         print(f"Invalid links found:\n{invalidURL}\n\n")

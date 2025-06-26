@@ -53,7 +53,7 @@ class Main:
 
     async def main(self):
         options = ChromiumOptions()
-        options.set_argument('--remote-debugging-port=9600')
+        options.auto_port()
         options.set_argument('--headless=new')
         options.set_argument('--no-sandbox')
         options.use_system_user_path()
@@ -100,10 +100,10 @@ class Main:
             skins = [{"skinName": skins.find('p').text, "skinImg": f"https:{skins.find('i').find('img').get('src')}"} for skins in soup.find("ul", class_="pic-pf-list pic-pf-list3").find_all('li')]
             emblems = [{"emblemName": emblems.find('p').find("em").text, "emblemDescription": ' '.join(p.text for p in emblems.find_all('p')[1:]), "emblemImg": emblems.find('img').get('src')} for emblems in soup.find("ul", class_="sugg-u1").find_all('li')]
             emblemTips = soup.find("p", class_="sugg-tips").text.split('：')[1]
-            hero_info_boxes = soup.find_all('div', class_='hero-info')
-            bestPartners = self.getHeroes(hero_info_boxes[0])
-            suppressingHeroes = self.getHeroes(hero_info_boxes[1])
-            suppressedHeroes = self.getHeroes(hero_info_boxes[2])
+            heroInfoBoxes = soup.find_all('div', class_='hero-info')
+            bestPartners = self.getHeroes(heroInfoBoxes[0])
+            suppressingHeroes = self.getHeroes(heroInfoBoxes[1])
+            suppressedHeroes = self.getHeroes(heroInfoBoxes[2])
 
             data = {
                 "title": title,
@@ -136,11 +136,11 @@ class Main:
         for i, li in enumerate(heroList):
             heroImg = f"https:{li.find('img')['src']}"
             heroEname = li.find('a')['href'].split('/')[-1].split('.')[0]
-            heroLink = f"https://pvp.qq.com/web201605/herodetail/{heroEname}.shtml"
             forkJson = requests.get("https://pvp.qq.com/web201605/js/herolist.json").json()
             for heroData in forkJson:
                 if heroData['ename'] == int(heroEname):
                     heroName = heroData['cname']
+                    heroLink = f"https://pvp.qq.com/web201605/herodetail/{heroData['id_name']}.shtml"
             heroDesc = heroDescList[i] if i < len(heroDescList) else ""
             heroes[heroName] = {
                 "name": heroName,
