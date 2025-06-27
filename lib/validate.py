@@ -63,7 +63,7 @@ async def validateLinks():
     )
     urls = re.findall(url_pattern, data_str)
 
-    all_links_valid = True
+    allLinksValid = True
     invalidURL = []
 
     async with aiohttp.ClientSession() as session:
