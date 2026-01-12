@@ -133,21 +133,41 @@ class Main:
         heroes = {}
         heroList = heroInfo.find('ul').find_all('li')
         heroDescList = [p.text for p in heroInfo.find('div', class_='hero-list-desc').find_all('p')]
+        forkJson = requests.get("https://pvp.qq.com/web201605/js/herolist.json").json()
         for i, li in enumerate(heroList):
-            heroImg = f"https:{li.find('img')['src']}"
-            heroEname = li.find('a')['href'].split('/')[-1].split('.')[0]
-            forkJson = requests.get("https://pvp.qq.com/web201605/js/herolist.json").json()
+            heroImg = ""
+            imgTag = li.find('img')
+            if imgTag:
+                imgSrc = imgTag.get('src') or imgTag.get('data-src') or imgTag.get('data-original')
+                if imgSrc:
+                    if imgSrc.startswith('//'):
+                        heroImg = f"https:{imgSrc}"
+                    elif imgSrc.startswith('http'):
+                        heroImg = imgSrc
+                    else:
+                        heroImg = f"https:{imgSrc}"
+
+            aTag = li.find('a')
+            heroEname = aTag.get('href', '').split('/')[-1].split('.')[0] if aTag else ""
+            heroName = None
+            heroLink = None
             for heroData in forkJson:
-                if heroData['ename'] == int(heroEname):
-                    heroName = heroData['cname']
-                    heroLink = f"https://pvp.qq.com/web201605/herodetail/{heroData['id_name']}.shtml"
+                try:
+                    if heroData['ename'] == int(heroEname):
+                        heroName = heroData['cname']
+                        heroLink = f"https://pvp.qq.com/web201605/herodetail/{heroData['id_name']}.shtml"
+                        break
+                except ValueError:
+                    continue
+
             heroDesc = heroDescList[i] if i < len(heroDescList) else ""
-            heroes[heroName] = {
-                "name": heroName,
-                "thumbnail": heroImg,
-                "description": heroDesc,
-                "url": heroLink
-            }
+            if heroName:
+                heroes[heroName] = {
+                    "name": heroName,
+                    "thumbnail": heroImg,
+                    "description": heroDesc,
+                    "url": heroLink
+                }
         return heroes
 
 
